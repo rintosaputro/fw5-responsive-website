@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid navigation">
+      <a href="index.html" class="navbar-brand">
+        <img src="./assets/images/logo.png" alt="Logo">
+      </a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vehicle Type</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-outline-warning btn-nav">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-warning btn-nav">Register</a>
+        </li>
+      </ul>
+  </nav>
+  <header class="header-homepage">
+    <div class="opacity">
+      <h1>Explore and <br/> Travel</h1>
+      <p>Vehicle Finder</p>
+      <div class="line"></div>
+      <form class="col-6">
+        <div class="row">
+          <div class="col-6">
+            <select class="option-form">
+              <option>Location</option>
+              <option></option>
+            </select>
+          </div>
+          <div class="col-6">
+            <select class="option-form">
+              <option>Type</option>
+              <option></option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <select class="option-form">
+              <option>Payment</option>
+              <option></option>
+            </select>
+          </div>
+          <div class="col-6">
+            <select class="option-form">
+              <option>Date</option>
+              <option></option>
+            </select>
+          </div>
+        </div>
+        <button class="btn btn-warning">Explore</button>
+      </form>
+    </div>
+  </header>
+  
+  <main class="container">
+    <section class="destination">
+      <h2>Popular in town</h2>
+      <div class="row">
+        <div class="col-3">
+          <a href="#">
+            <img src="./assets/images/1.png" alt="Merapi">
+            <div class="highlight">
+              <h5>Merapi</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#">
+            <img src="./assets/images/2.png" alt="Teluk BOgam">
+            <div class="highlight">
+              <h5>Teluk Bogam</h5>
+              <span>Kalimantan</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#">
+            <img src="./assets/images/3.png" alt="Bromo">
+            <div class="highlight">
+              <h5>Bromo</h5>
+              <span>Malang</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#">
+            <img src="./assets/images/4.png" alt="Malioboro">
+            <div class="highlight">
+              <h5>Malioboro</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimoni">
+      <h2>Testimonials</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="comment">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>”It was the right decision to rent vehicle here, I spent less money and enjoy the trip. It was an amazing experience to have a ride for wildlife trip!”</p>
+          </div>
+          <div class="profile">
+            <h5>Edward Newgate</h5>
+            <span>Founder Circle</span>
+          </div>
+        </div>
+        <div class="col-6 profile">
+          <div class="image">
+            <img src="./assets/images/user-homepage.png" alt="Edward">
+            <div class="ms-auto next-prev">
+              <button class="btn disabled next"><i class="fa-solid fa-angle-left"></i></button>
+              <button class="btn prev"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

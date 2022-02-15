@@ -1,0 +1,139 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+nav.navbar {
+  height: 169px;
+}
+nav.navbar .navigation {
+  margin: 0 98px;
+  margin-top: 82px;
+  margin-bottom: 45px;
+}
+nav.navbar .navigation .navbar-brand {
+  width: 41px;
+}
+nav.navbar .navigation ul li a {
+  color: #393939;
+  margin: 17.5px;
+  font-family: 'Nunito', sans-serif;
+}
+nav.navbar .navigation ul li .btn-nav {
+  border-radius: 8px;
+  width: 132px;
+}
+header.header-homepage {
+  background-image: url(./images/homepage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+header.header-homepage .opacity {
+  padding-left: 121px;
+  padding-top: 69px;
+  height: 805px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+header.header-homepage .opacity h1 {
+  margin-bottom: 71px;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: 'Playfair Display', serif;
+}
+header.header-homepage .opacity p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+header.header-homepage .opacity .line {
+  border-top: 3px solid #fff;
+  width: 32px;
+}
+header.header-homepage .opacity .option-form {
+  width: 220px;
+  height: 52px;
+  margin:35px 0;
+  margin-right: 31px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header.header-homepage .opacity .btn {
+  border-radius: 8px;
+  width: 180px;
+  height: 52px;
+  margin-top: 51px;
+  margin-bottom: 119px;
+}
+
+/* section */
+section h2 {
+  margin-top: 82px;
+  margin-bottom: 56px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+}
+main section.destination img {
+  border-radius: 10px;
+  width: 261px;
+  height: 337px;
+}
+main section.destination a {
+  text-decoration: none;
+}
+main section.destination .highlight {
+  margin-top: -54px;
+  position: relative;
+  background-color: #ffff;
+  width: 120px;
+  height: 56px;
+  border-radius: 0px 6px 0px 0px;
+  font-family: 'Nunito', sans-serif;
+  color: #042521;
+}
+main section.destination .highlight h5 {
+  color: #042521;
+  font-weight: 600;
+  font-size: 17px;
+}
+main section.destination .highlight span {
+  font-size: 17px;
+  color: #686767;
+}
+
+section.testimoni .comment i {
+  color:#FFBB0C;
+  margin-right: 15px;
+}
+section.testimoni .comment p {
+  margin-top: 31px;
+  margin-bottom: 40px;
+  width: 450px;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: 'Mulish', sans-serif;
+}
+section.testimoni .profile h5 {
+  font-weight: bold;
+}
+section.testimoni .profile .image {
+  width: 396px;
+}
+section.testimoni .profile img {
+  border-radius: 10px;
+  width: 396px;
+}
+section.testimoni .profile .next-prev {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: -53px;
+  width: 132px;
+  height: 60px;
+  border-radius: 16px 0px 0px 0px;
+}
+section.testimoni .profile .next-prev .btn  {
+  border: 2px solid black;
+  width: 40px;
+  border-radius: 60px;
+  margin: 0 5px;
+}
