@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- fonts -->
@@ -18,68 +19,77 @@
   <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid bg-light navigation">
       <a href="index.html" class="navbar-brand">
         <img src="./assets/images/logo.png" alt="Logo">
       </a>
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Vehicle Type</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">History</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="btn btn-outline-warning btn-nav">Login</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="btn btn-warning btn-nav">Register</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navigation" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vehicle Type</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-outline-warning btn-nav">Login</a>
+          </li>
+          <li>
+            <a href="./register.html" class="btn btn-warning btn-nav">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
+
   <header class="header-homepage">
     <div class="opacity">
-      <h1>Explore and <br/> Travel</h1>
-      <p>Vehicle Finder</p>
-      <div class="line"></div>
-      <form class="col-6">
-        <div class="row">
-          <div class="col-6">
-            <select class="option-form">
-              <option>Location</option>
-              <option></option>
-            </select>
+      <div class="container">
+        <h1>Explore and <br/> Travel</h1>
+        <p>Vehicle Finder</p>
+        <div class="line"></div>
+        <form class="col-sm-12 col-lg-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <select class="option-form">
+                <option>Location</option>
+                <option></option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <select class="option-form">
+                <option>Type</option>
+                <option></option>
+              </select>
+            </div>
           </div>
-          <div class="col-6">
-            <select class="option-form">
-              <option>Type</option>
-              <option></option>
-            </select>
+          <div class="row">
+            <div class="col-sm-6">
+              <select class="option-form">
+                <option>Payment</option>
+                <option></option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <select class="option-form">
+                <option>Date</option>
+                <option></option>
+              </select>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            <select class="option-form">
-              <option>Payment</option>
-              <option></option>
-            </select>
-          </div>
-          <div class="col-6">
-            <select class="option-form">
-              <option>Date</option>
-              <option></option>
-            </select>
-          </div>
-        </div>
-        <button class="btn btn-warning">Explore</button>
-      </form>
+          <button class="btn btn-warning">Explore</button>
+        </form>
+      </div>
     </div>
   </header>
   
@@ -87,36 +97,36 @@
     <section class="destination">
       <h2>Popular in town</h2>
       <div class="row">
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
           <a href="#">
-            <img src="./assets/images/1.png" alt="Merapi">
+            <img class="img-fluid" src="./assets/images/1.png" alt="Merapi">
             <div class="highlight">
               <h5>Merapi</h5>
               <span>Yogyakarta</span>
             </div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
           <a href="#">
-            <img src="./assets/images/2.png" alt="Teluk BOgam">
+            <img class="img-fluid" src="./assets/images/2.png" alt="Teluk BOgam">
             <div class="highlight">
               <h5>Teluk Bogam</h5>
               <span>Kalimantan</span>
             </div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
           <a href="#">
-            <img src="./assets/images/3.png" alt="Bromo">
+            <img class="img-fluid" src="./assets/images/3.png" alt="Bromo">
             <div class="highlight">
               <h5>Bromo</h5>
               <span>Malang</span>
             </div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
           <a href="#">
-            <img src="./assets/images/4.png" alt="Malioboro">
+            <img class="img-fluid" src="./assets/images/4.png" alt="Malioboro">
             <div class="highlight">
               <h5>Malioboro</h5>
               <span>Yogyakarta</span>
@@ -129,7 +139,7 @@
     <section class="testimoni">
       <h2>Testimonials</h2>
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-lg-6 mt-5 left-testi">
           <div class="comment">
             <div class="stars">
               <i class="fa-solid fa-star"></i>
@@ -145,7 +155,7 @@
             <span>Founder Circle</span>
           </div>
         </div>
-        <div class="col-6 profile">
+        <div class="col-12 col-lg-6 mt-5 profile">
           <div class="image">
             <img src="./assets/images/user-homepage.png" alt="Edward">
             <div class="ms-auto next-prev">
@@ -157,5 +167,58 @@
       </div>
     </section>
   </main>
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <img src="./assets/images/logo.png" alt="logo">
+        <p class="description">Plan and book your perfect trip with expert advice, travel tips for vehicle information from us</p>
+        <p>©2020 Vehicle Rental Center. All rights reserved</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row">
+          <div class="my-5 col-12 col-md-4">
+            <h5>Destinations</h5>
+            <ul class="list-group">
+              <li>Bali</li>
+              <li>Yogyakarta</li>
+              <li>Jakarta</li>
+              <li>Kalimantan</li>
+              <li>Malang</li>
+            </ul>
+          </div>
+          <div class="my-5 col-12 col-md-4">
+            <h5>Vehicle</h5>
+            <ul class="list-group">
+              <li>Bike</li>
+              <li>Cars</li>
+              <li>Motorbike</li>
+              <li>Return Times</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+          <div class="my-5 col-12 col-md-4">
+            <h5>Interests</h5>
+            <ul class="list-group">
+              <li>Adventure Travel</li>
+              <li>Art And Culture</li>
+              <li>wildlife And Nature</li>
+              <li>Family Holidays</li>
+              <li>Culinary Trip</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row social">
+      <ul class="list-group">
+        <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
+        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>

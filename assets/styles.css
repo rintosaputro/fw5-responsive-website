@@ -1,13 +1,13 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
-nav.navbar {
-  height: 169px;
+nav {
+  height: 150px;
 }
-nav.navbar .navigation {
-  margin: 0 98px;
-  margin-top: 82px;
-  margin-bottom: 45px;
+nav .navigation {
+  padding: 0 50px;
+  display: flex;
+  justify-content: flex-end;
 }
 nav.navbar .navigation .navbar-brand {
   width: 41px;
@@ -21,33 +21,36 @@ nav.navbar .navigation ul li .btn-nav {
   border-radius: 8px;
   width: 132px;
 }
+
+
 header.header-homepage {
+  margin-top: 150px;
   background-image: url(./images/homepage.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
-header.header-homepage .opacity {
-  padding-left: 121px;
+header .opacity {
+  /* padding-left: 121px; */
   padding-top: 69px;
   height: 805px;
   background-color: rgba(0, 0, 0, 0.3);
 }
-header.header-homepage .opacity h1 {
+header .opacity h1 {
   margin-bottom: 71px;
   font-weight: bold;
   font-size: 64px;
   font-family: 'Playfair Display', serif;
 }
-header.header-homepage .opacity p {
+header .opacity p {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
 }
-header.header-homepage .opacity .line {
+header .opacity .line {
   border-top: 3px solid #fff;
   width: 32px;
 }
-header.header-homepage .opacity .option-form {
+header .option-form {
   width: 220px;
   height: 52px;
   margin:35px 0;
@@ -55,7 +58,7 @@ header.header-homepage .opacity .option-form {
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.5);
 }
-header.header-homepage .opacity .btn {
+header .opacity .btn {
   border-radius: 8px;
   width: 180px;
   height: 52px;
@@ -72,15 +75,14 @@ section h2 {
   font-size: 36px;
   font-family: 'Playfair Display', serif;
 }
-main section.destination img {
+main section img {
   border-radius: 10px;
-  width: 261px;
-  height: 337px;
+  margin-bottom: 15px;
 }
-main section.destination a {
+main section a {
   text-decoration: none;
 }
-main section.destination .highlight {
+main section .highlight {
   margin-top: -54px;
   position: relative;
   background-color: #ffff;
@@ -90,16 +92,21 @@ main section.destination .highlight {
   font-family: 'Nunito', sans-serif;
   color: #042521;
 }
-main section.destination .highlight h5 {
+main section .highlight h5 {
   color: #042521;
   font-weight: 600;
   font-size: 17px;
 }
-main section.destination .highlight span {
+main section .highlight span {
   font-size: 17px;
   color: #686767;
 }
 
+section.testimoni .left-testi {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 section.testimoni .comment i {
   color:#FFBB0C;
   margin-right: 15px;
@@ -116,6 +123,7 @@ section.testimoni .profile h5 {
   font-weight: bold;
 }
 section.testimoni .profile .image {
+  margin: 0 auto;
   width: 396px;
 }
 section.testimoni .profile img {
@@ -136,4 +144,61 @@ section.testimoni .profile .next-prev .btn  {
   width: 40px;
   border-radius: 60px;
   margin: 0 5px;
+}
+
+/* footer */
+footer {
+  margin-top: 76px;
+  color: #848484;
+  font-family: 'Mulish', sans-serif;
+}
+footer img {
+  margin-bottom: 26px;
+  width: 44px;
+}
+footer p.description {
+  margin-bottom: 53px;
+  width: 60%;
+}
+footer h5 {
+  color: #393939;
+  font-weight: bold;
+  font-size: 19px;
+}
+footer ul li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 38px;
+}
+footer .social {
+  border-top: 1px solid #C4C4C4;
+}
+footer .social .list-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .social a {
+  text-decoration: none;
+}
+footer .social i {
+  color: #393939;
+  width: 25px;
+  margin: 31px 17.5px;
+}
+
+@media all and (max-width: 650px) {
+  nav {
+    height: 100px;
+  }
+  nav .navigation {
+    padding: 10px;
+  }
+  header.header-homepage {
+    margin-top: 100px;
+  }
+  header select.option-form {
+    margin: 13px 0;
+  }
+  
 }
