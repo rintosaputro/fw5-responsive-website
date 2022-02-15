@@ -1,0 +1,128 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+header.register {
+  background-image: url(./images/bg-register.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+header .opacity {
+  height: 805px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .desc {
+  border-right: 1px solid white;
+  margin-top: 107px;
+}
+header .form-register {
+  margin-top: 107px;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 85px;
+  margin-bottom: 93px;
+}
+header .opacity .dont-have {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+  color: #fff;
+}
+header .btn-signup {
+  margin-top: 25px;
+  padding: 23px 149px;
+  background-color: #151b1b;
+  color: #32DBC6;
+  font-weight: 900;
+  font-size: 24px;
+  border-radius: 10px;
+}
+header .btn-signup:hover {
+  background-color: #32DBC6;
+  color: #151b1b;
+}
+.form-register {
+  margin-left: 20%;
+}
+.form-register input, .form-register .btn {
+  width: 447px;
+  padding: 23px 0;
+  border-radius: 10px;
+  margin: 17px 0;
+  font-weight: 900;
+  font-size: 24px;
+}
+.form-register input {
+  background: rgba(255, 255, 255, 0.26);
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+.form-register input:focus {
+  outline: none;
+}
+.form-register input::placeholder {
+  color: #fff;
+}
+.form-register a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 49px;
+}
+.form-register .login {
+  margin-top: 49px;
+  color: #fff;
+  background-color: #32DBC6;
+}
+.form-register .login:hover {
+  background-color: #EBEFD0;
+  color: #085F63;
+}
+.form-register .google {
+  color: black;
+  background-color: #fff;
+  text-align: center;
+}
+.form-register .google:hover {
+  background-color: #EBEFD0;
+}
+.dot {
+  text-align: end;
+}
+.dot.top {
+  margin-right: -22px;
+  margin-top: -3px;
+}
+.dot.bottom {
+  margin-right: -21px;
+  margin-top: 96px;
+}
+
+@media all and (max-width: 1150px) {
+  .form-register {
+    margin-left: 15%;
+  }
+  .form-register input, .form-register .btn {
+    width: 320px;
+  }
+}
+@media all and (max-width: 990px) {
+  header h1 {
+    margin-bottom: 15px;
+    font-size: 43px;
+  }
+  header .opacity .dont-have {
+    font-size: 15px;
+  }
+  header .opacity .btn {
+    width: 320px;
+    padding: 25px 100px;
+  }
+}
