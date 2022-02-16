@@ -4,42 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Forgot Password</title>
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Nunito:wght@400;700;900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <!-- icon -->
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- style -->
-  <link rel="stylesheet" href="./assets/login.css">
+  <link rel="stylesheet" href="./assets/forgot.css">
   <link rel="stylesheet" href="/assets/foooter.css">
 </head>
 <body>
-  <header class="register mb-5">
+  <header>
     <div class="opacity">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 desc">
-            <div class="dot top"><img src="./assets/images/dot-register.png" alt="dot"></div>
-            <h1>Le’ts Explore <br> The World</h1>
-            <a href="#" class="dont-have">Don’t have account?</a> <br>
-            <a href="signup.html" class="btn btn-signup">Sign Up</a>
-            <div class="dot bottom"><img src="./assets/images/dot-register.png" alt="dot"></div>
-          </div>
-          <div class="col-12 col-md-6 form">
-            <form class="form-register row">
-              <input type="email" placeholder="Email"> <br>
-              <input type="password" placeholder="Password"> <br>
-              <div><a href="forgot.html" class="forgot">Forgot password?</a> <br></div>
-              <a href="/login.html" class="btn login">Login</a> <br>
-              <a href="#" class="btn google"><img src="./assets/images/google.png" alt="google"> Login With Google</a>
-            </form>
-          </div>
-        </div>
+        <a class="back" href="/login.html">
+          <i class="fa-solid fa-angle-left"></i>
+          <span>Back</span>
+        </a>
+        <h1 class="text-center">Do’t worry, we got your back!</h1>
+        <p class="text-center">You will receive a link to reset your password. <br>
+          If you haven’t received any link, click resend link</p>
+        <form class="text-center form">
+          <input type="email" placeholder="Enter your email address">
+          <button class="btn send-link">Send Link</button>
+          <button class="btn resend-link">Resend Link</button>
+        </form>
       </div>
     </div>
   </header>

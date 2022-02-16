@@ -95,6 +95,7 @@ header .btn-signup:hover {
 }
 .form-register .google:hover {
   background-color: #EBEFD0;
+  color: #085F63;
 }
 .dot {
   text-align: end;
