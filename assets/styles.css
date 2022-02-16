@@ -21,6 +21,20 @@ nav.navbar .navigation ul li .btn-nav {
   border-radius: 8px;
   width: 132px;
 }
+nav.navbar .navigation ul li .btn-login {
+  border: 1px solid #32DBC6;
+}
+nav.navbar .navigation ul li .btn-login:hover {
+  background-color: #32DBC6;
+}
+.btn-warning {
+  background-color: #32DBC6 !important;
+  border: 1px solid #32DBC6;
+}
+.btn-warning:hover {
+  background-color: #EBEFD0 !important;
+  border: 1px solid #32DBC6;
+}
 
 
 header.header-homepage {
@@ -56,6 +70,9 @@ header .option-form {
   margin-right: 31px;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.5);
+}
+header .option-form:focus {
+  outline: none;
 }
 header .opacity .btn {
   border-radius: 8px;

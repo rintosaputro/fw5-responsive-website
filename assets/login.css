@@ -57,8 +57,8 @@ header .btn-signup:hover {
   font-size: 24px;
 }
 .form-register input {
+  padding-left: 20px;
   background: rgba(255, 255, 255, 0.26);
-  text-align: center;
   color: #fff;
   border: none;
 }
@@ -76,8 +76,11 @@ header .btn-signup:hover {
   font-size: 18px;
   margin-bottom: 49px;
 }
+.form-register a.forgot {
+  display: block;
+  margin-bottom: 49px;
+}
 .form-register .login {
-  margin-top: 49px;
   color: #fff;
   background-color: #32DBC6;
 }
@@ -100,17 +103,17 @@ header .btn-signup:hover {
   margin-right: -22px;
   margin-top: -3px;
 }
-.dot.bottom {
-  margin-right: -21px;
-  margin-top: 96px;
+.dot.bottom {    
+  margin-right: -23px;
+  margin-top: 125px;
+}
+.dot.bottom.signup {
+  margin-top: 135px;
 }
 
 @media all and (max-width: 1150px) {
   .form-register {
     margin-left: 15%;
-  }
-  .form-register input, .form-register .btn {
-    width: 320px;
   }
 }
 @media all and (max-width: 990px) {
@@ -118,11 +121,48 @@ header .btn-signup:hover {
     margin-bottom: 15px;
     font-size: 43px;
   }
+  .form-register input, .form-register .btn {
+    width: 320px;
+    padding: 12px 0;
+  }
+  .form-register input {
+    padding-left: 10px;
+  }
   header .opacity .dont-have {
     font-size: 15px;
   }
   header .opacity .btn {
     width: 320px;
-    padding: 25px 100px;
+    padding: 15px 0;
+  }
+  .dot.bottom {
+    margin-top: 138px;
+  }
+}
+@media all and (max-width: 768px) {
+  header .opacity {
+    height: 900px;
+  }
+  header .opacity .row {
+    text-align: center;
+  }
+  header .desc {
+    border: none;
+    margin-top: 20px;
+  }
+  .dot {
+    display: none;
+  }
+  header .form-register {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .form-register {
+    display: flex;
+    justify-content: center;
+  }
+  .form-register a.forgot {
+    display: inline;
+    /* margin-bottom: 49px; */
   }
 }
