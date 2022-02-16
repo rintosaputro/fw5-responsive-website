@@ -162,8 +162,10 @@ header .btn-signup:hover {
     display: flex;
     justify-content: center;
   }
+  .form-register input, .form-register input:focus {
+    text-align: center;
+  }
   .form-register a.forgot {
     display: inline;
-    /* margin-bottom: 49px; */
   }
 }

@@ -72,3 +72,20 @@ header p {
   background-color: #fff;
   text-align: center;
 }
+
+@media all and (max-width: 600px) {
+  .back i {
+    margin-right: 26px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  header p {
+    font-size: 20px;
+  }
+  .form input, .send-link, .resend-link {
+    width: 70%;
+    height: 50px;
+    font-size: 18px;
+  }
+}

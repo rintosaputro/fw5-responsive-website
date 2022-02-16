@@ -164,6 +164,12 @@ section.testimoni .profile .next-prev .btn  {
 
 
 @media all and (max-width: 650px) {
+  header .container {
+    text-align: center;
+  }
+  header .line {
+    margin: 0 auto;
+  }
   nav {
     height: 100px;
   }
