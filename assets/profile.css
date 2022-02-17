@@ -102,6 +102,12 @@ form .btn-cancel {
   font-weight: bold;
   font-size: 20px;
 }
+form .btn-save:hover,
+form .btn-edit:hover,
+form .btn-cancel:hover {
+  background-color: #EBEFD0;
+  color: #085F63;
+}
 form .btn-save {
   color: #fff;
   background-color: #32DBC6;
@@ -110,7 +116,20 @@ form .btn-edit {
   background-color: #151b1b;
   color: #32DBC6;
 }
+form .btn-cancel {
+  background-color: #CBCBD4;
+}
 
 footer {
   margin-top: 103px;
+}
+@media all and (max-width: 991px) {
+  nav {
+    height: 80px;
+  }
+  nav .navigation#navbarNav {
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 20px 0;
+  }
 }
