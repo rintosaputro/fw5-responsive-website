@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Type</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Nunito:wght@400;700;900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- style -->
+  <link rel="stylesheet" href="./assets/vehicle-type.css">
+  <link rel="stylesheet" href="/assets/foooter.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container bg-white navigation">
+      <a href="index.html" class="navbar-brand">
+        <img src="./assets/images/logo.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navigation" id="navbarNav">
+        <ul class="navbar-nav me-xl-5">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item mx-xl-3">
+            <a class="nav-link" href="vehicle-type.html">Vehicle Type</a>
+          </li>
+          <li class="nav-item me-xl-3">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="mail-profile ms-xl-5">
+          <a href="#" class="me-4 message"><span class="text-white bg-danger badge total-message">1</span><img src="/assets/images/email.png" alt="message"></a>
+          <a href="#" class="profile"><img src="/assets/images/profile.png" alt="profile picture"></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <form class="container d-flex position-relative">
+    <input class="form-control" type="search" placeholder="Search vehicle (ex. cars, cars name)">
+    <button type="submit" class="btn position-absolute end-0">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+    </button>
+  </form>
+
+  <section class="container">
+    <div class="d-flex justify-content-between head">
+      <h2>Popular in town</h2>
+      <a href="#" class="view-all">View all</a>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <a href="#">
+          <div class="img-section">
+            <a href="#">
+              <img src="./assets/images/merapi.png" alt="Merapi">
+              <div class="highlight">
+                <h5>Merapi</h5>
+                <span>Yogyakarta</span>
+              </div>
+            </a>
+          </div>
+        </a>
+       
+      </div>
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/kallimantan.png" alt="Teluk BOgam">
+            <div class="highlight">
+              <h5>Teluk Bogam</h5>
+              <span>Kalimantan</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/malang.png" alt="Bromo">
+            <div class="highlight">
+              <h5>Bromo</h5>
+              <span>Malang</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/malioboro.png" alt="Malioboro">
+            <div class="highlight">
+              <h5>Malioboro</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="d-flex justify-content-between head">
+      <h2>Cars</h2>
+      <a href="#" class="view-all">View all</a>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/merapi.png" alt="Van">
+            <div class="highlight">
+              <h5>Van</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/lambo.png" alt="Lamborghini">
+            <div class="highlight">
+              <h5>Lamborghini</h5>
+              <span>South Jakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/malang.png" alt="Jeep">
+            <div class="highlight">
+              <h5>Jeep</h5>
+              <span>Malang</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/white-jeep.png" alt="White Jeep">
+            <div class="highlight">
+              <h5>White Jeep</h5>
+              <span>Kalimantan</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="d-flex justify-content-between head">
+      <h2>Motorbike</h2>
+      <a href="#" class="view-all">View all</a>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/vespa.png" alt="Vespa">
+            <div class="highlight">
+              <h5>Vespa</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/kallimantan.png" alt="Honda KLX">
+            <div class="highlight">
+              <h5>Honda KLX</h5>
+              <span>Kalimantan</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/honda.png" alt="Honda">
+            <div class="highlight">
+              <h5>Honda</h5>
+              <span>Malang</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/malioboro.png" alt="Matic Bike">
+            <div class="highlight">
+              <h5>Matic Bike</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="d-flex justify-content-between head">
+      <h2>Popular in town</h2>
+      <a href="#" class="view-all">View all</a>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/fixie.png" alt="Fixie">
+            <div class="highlight">
+              <h5>Fixie</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img mb-3">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/sport-bike.png" alt="Sport Bike">
+            <div class="highlight">
+              <h5>Sport Bike</h5>
+              <span>Kalimantan</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/onthel.png" alt="Onthel">
+            <div class="highlight">
+              <h5>Onthel</h5>
+              <span>Malang</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 parrent-img">
+        <div class="img-section">
+          <a href="#">
+            <img src="./assets/images/fixie-gray.png" alt="Fixie Gray">
+            <div class="highlight">
+              <h5>Fixie Gray</h5>
+              <span>Yogyakarta</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-light pt-3">
+    <div class="container row">
+      <div class="col-lg-5">
+        <img src="./assets/images/logo.png" alt="logo">
+        <p class="description">Plan and book your perfect trip with expert advice, travel tips for vehicle information from us</p>
+        <p>©2020 Vehicle Rental Center. All rights reserved</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row">
+          <div class="my-5 col-12 col-md-4">
+            <h5>Destinations</h5>
+            <ul class="list-group">
+              <li>Bali</li>
+              <li>Yogyakarta</li>
+              <li>Jakarta</li>
+              <li>Kalimantan</li>
+              <li>Malang</li>
+            </ul>
+          </div>
+          <div class="my-5 col-12 col-md-4">
+            <h5>Vehicle</h5>
+            <ul class="list-group">
+              <li>Bike</li>
+              <li>Cars</li>
+              <li>Motorbike</li>
+              <li>Return Times</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+          <div class="my-5 col-12 col-md-4">
+            <h5>Interests</h5>
+            <ul class="list-group">
+              <li>Adventure Travel</li>
+              <li>Art And Culture</li>
+              <li>wildlife And Nature</li>
+              <li>Family Holidays</li>
+              <li>Culinary Trip</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row social">
+      <ul class="list-group">
+        <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
+        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
