@@ -1,5 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 nav {
   height: 150px;
@@ -99,7 +101,7 @@ main section a {
   text-decoration: none;
 }
 main section .highlight {
-  margin-top: -54px;
+  margin-top: -67px;
   position: relative;
   background-color: #ffff;
   width: 120px;
@@ -182,5 +184,15 @@ section.testimoni .profile .next-prev .btn  {
   header select.option-form {
     margin: 13px 0;
   }
-  
+  section.testimoni h2 {
+    font-size: 23px;
+  }
+  section.testimoni .comment p {
+    font-size: 18px;
+  }
+  section.testimoni .comment p,
+  section.testimoni .profile .image,
+  section.testimoni .profile img {
+    width: 100%;
+  }
 }
