@@ -181,8 +181,13 @@ section.testimoni .profile .next-prev .btn  {
   header.header-homepage {
     margin-top: 100px;
   }
-  header select.option-form {
+  header .option-form {
+    height: 40px;
     margin: 13px 0;
+    margin-right: 0;
+  }
+  header .opacity .btn {
+    height: 40px;
   }
   section.testimoni h2 {
     font-size: 23px;

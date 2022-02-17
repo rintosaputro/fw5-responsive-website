@@ -67,6 +67,9 @@ section form .gender label {
   font-weight: bold;
   font-size: 20px;
 }
+form .contact, form .identity {
+  color: #9F9F9F;
+}
 .form-check-input {
   background-color: #EBEFD0;
 }
@@ -74,10 +77,14 @@ section form .gender label {
   background-color: #32DBC6;
 }
 section form .form-contact {
+  height: 50px;
+  padding-left: 0;
+  margin-top: 15px;
   border-radius: 0;
   border: none ;
   border-bottom: 1px solid black;
 }
+
 .form-control:focus {
   box-shadow: none !important;
 }

@@ -15,86 +15,48 @@
   <!-- icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- style -->
-  <link rel="stylesheet" href="./assets/login.css">
+  <link rel="stylesheet" href="./assets/signup.css">
   <link rel="stylesheet" href="/assets/foooter.css">
 </head>
 <body>
-  <header class="register">
-    <div class="opacity">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 desc">
-            <div class="dot top"><img src="./assets/images/dot-register.png" alt="dot"></div>
-            <h1>Le’ts Explore <br> The World</h1>
-            <a href="#" class="dont-have">Don’t have account?</a> <br>
-            <a href="/login.html" class="btn btn-signup">Login</a>
-            <div class="dot bottom signup"><img src="./assets/images/dot-register.png" alt="dot"></div>
-          </div>
-          <div class="col-12 col-md-6 form">
-            <form class="form-register row">
-              <input type="text" placeholder="Name">
-              <input type="email" placeholder="Email"> <br>
-              <input type="password" placeholder="Password"> <br>
-              <a href="/login.html" class="btn login">Sign Up</a> <br>
-              <a href="#" class="btn google"><img src="./assets/images/google.png" alt="google"> Sign Up With Google</a>
-            </form>
-          </div>
-        </div>
-      </div>
+  <main class="row">
+    <div class="col col-sm-6 img-section">
     </div>
-  </header>
-
-  <footer class="container">
-    <div class="row">
-      <div class="col-lg-5">
-        <img src="./assets/images/logo.png" alt="logo">
-        <p class="description">Plan and book your perfect trip with expert advice, travel tips for vehicle information from us</p>
-        <p>©2020 Vehicle Rental Center. All rights reserved</p>
-      </div>
-      <div class="col-lg-7">
-        <div class="row">
-          <div class="my-5 col-12 col-md-4">
-            <h5>Destinations</h5>
+    <div class="col-12 col-sm-6 pt-5 form-section">
+      <div class="opacity">
+        <form class="d-flex flex-column justify-content-center align-items-center">
+          <h2 class="my-5 container header-sign">Sign Up</h2>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
+          <a href="/login.html" class="btn mt-5 signup">Sign Up</a>
+          <div class="row d-flex align-items-center another">
+            <div class="col"><hr></div>
+            <div class="col-5 text-muted text-center text-another">or try another way</div>
+            <div class="col"><hr></div>
+          </div>
+          <a href="#" class="btn my-5 google"><img src="./assets/images/google.png" alt="google"> Sign Up With Google</a>
+          <a href="/login.html" class="btn login">Login</a> <br>
+        </form>
+  
+        <footer class="bg-light container pt-5">
+          <div>
+            <img src="./assets/images/logo.png" alt="logo" width="20px">
+            <p class="description">Plan and book your perfect trip with expert advice, travel tips for vehicle information from us</p>
+            <p>©2020 Vehicle Rental Center. All rights reserved</p>
+          </div>
+          <div class="row social">
             <ul class="list-group">
-              <li>Bali</li>
-              <li>Yogyakarta</li>
-              <li>Jakarta</li>
-              <li>Kalimantan</li>
-              <li>Malang</li>
+              <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
             </ul>
           </div>
-          <div class="my-5 col-12 col-md-4">
-            <h5>Vehicle</h5>
-            <ul class="list-group">
-              <li>Bike</li>
-              <li>Cars</li>
-              <li>Motorbike</li>
-              <li>Return Times</li>
-              <li>FAQs</li>
-            </ul>
-          </div>
-          <div class="my-5 col-12 col-md-4">
-            <h5>Interests</h5>
-            <ul class="list-group">
-              <li>Adventure Travel</li>
-              <li>Art And Culture</li>
-              <li>wildlife And Nature</li>
-              <li>Family Holidays</li>
-              <li>Culinary Trip</li>
-            </ul>
-          </div>
-        </div>
+        </footer>
       </div>
     </div>
-    <div class="row social">
-      <ul class="list-group">
-        <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
-        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
-        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-      </ul>
-    </div>
-  </footer>
+  </main>
 </body>
 </html>
