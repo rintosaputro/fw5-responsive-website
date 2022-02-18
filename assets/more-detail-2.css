@@ -29,10 +29,13 @@ nav .mail-profile img {
 }
 
 /* button */
+.btn:focus {
+  box-shadow: none;
+}
 .btn-green, .btn-black {
   text-align: center;
   width: 90%;
-  height: 70px;
+  padding: 25px 0;
   border-radius: 10px;
   font-weight: bold;
   font-size: 20px;
@@ -60,15 +63,14 @@ section {
 .back {
   text-decoration: none;
   color: black;
-  width: 20%;
 }
 .back:hover {
   color: #49BEB7;
 }
-.back i, .back span {
+.back i, .head span {
   font-weight: bold;
 }
-.back span {
+.head span {
   font-size: 28px;
 }
 .back i {
@@ -134,6 +136,21 @@ section img, .cover-image {
   width: 50% !important;
 }
 
+/* reservation */
+.reservation .total-day {
+  margin-top: 20px;
+}
+.reservation button {
+  padding: 0;
+}
+.reservation .description-section {
+  padding-left: 0;
+  padding: 0 20px;
+}
+.reservation form {
+  margin: 0 5px;
+}
+
 @media all and (max-width: 991px) {
   #navbarNav {
     align-items: flex-end;
@@ -168,6 +185,11 @@ section img, .cover-image {
   }
   .total-day {
     margin-top: 5%;
+  }
+  .btn-green, .btn-black {
+    padding: 15px 0;
+    font-size: 15px;
+    width: 100%;
   }
 }
 @media all and (max-width: 575px) {
