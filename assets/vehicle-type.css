@@ -28,6 +28,33 @@ nav .mail-profile img {
 .profile img {
   border-radius: 30px;
 }
+nav form {
+  height: auto;
+}
+nav form {
+  margin: 0;
+}
+nav form input::placeholder {
+  font-size: 15px;
+}
+nav input.form-control {
+  padding-left: 8px;
+}
+nav input.form-control:focus,
+nav input.form-control:hover {
+  padding-right: 45px;
+}
+nav form button {
+  height: 0;
+}
+nav form .search-icon {
+  font-size: 15px;
+  padding-right: 0;
+  color: #B8BECD;
+}
+nav form .search-icon:hover {
+  color: black;
+}
 
 /* form */
 form, form, button {
@@ -39,20 +66,28 @@ form {
 form input::placeholder {
   font-size: 19px;
   color: #B8BECD !important;
-  padding-left: 35px;
 }
-.search-icon {
+form .form-control {
+  padding-left: 75px;
+}
+form .form-control:focus {
+  padding-right: 100px;
+}
+form .search-icon {
   font-size: 25px;
   padding-right: 40px;
 }
 
 /* section */
 section {
-  margin-top: 100px;
+  margin-top: 160px;
 }
 h2 {
   font-family: 'Playfair Display', Times, serif;
   font-weight: bold;
+}
+section p {
+  margin: 80px 0;
 }
 .head {
   margin-bottom: 40px;
@@ -98,4 +133,23 @@ section .highlight h5 {
 section .highlight span {
   font-size: 17px;
   color: #686767;
+}
+@media all and (max-width: 991px) {
+  nav {
+    height: 80px;
+  }
+  nav .navigation#navbarNav {
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  nav form {
+    margin: 20px 0;
+  }
+  .img-section {
+    height: 277px;
+  }
+  section .highlight {
+    margin-top: -129px;
+  }
 }
