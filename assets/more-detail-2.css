@@ -137,6 +137,13 @@ section img, .cover-image {
 }
 
 /* reservation */
+.reservation .img-section {
+  border-radius: 10px;
+}
+.reservation .img-section img {
+  width: auto;
+  height: 100%;
+}
 .reservation .total-day {
   margin-top: 20px;
 }
@@ -150,8 +157,35 @@ section img, .cover-image {
 .reservation form {
   margin: 0 5px;
 }
+.reservation input,
+.reservation select {
+  padding: 20px 0;
+  background-color: rgba(159, 163, 161, 0.1);
+  border: none;
+}
+.reservation input.form-control,
+.reservation select.form-select {
+  padding-left: 20px;
+  border-radius: 10px;
+  color: gray;
+}
+.reservation input::placeholder {
+  color: gray;
+}
+.reservation input.form-control:focus,
+.reservation select.form-select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 253, 161, 0.25);
+}
+.pay-now .btn-green {
+  padding: 20px 0;
+  font-size: 24px;
+}
 
 @media all and (max-width: 991px) {
+  .reservation .img-section img {
+    width: 100%;
+    height: auto;
+  }
   #navbarNav {
     align-items: flex-end;
     flex-direction: column;
@@ -169,6 +203,9 @@ section img, .cover-image {
   }
   .description-section {
     width: 95%;
+  }
+  .reservation .description-section {
+    width: 100%;
   }
 }
 @media all and (max-width: 767px) {
@@ -191,6 +228,7 @@ section img, .cover-image {
     font-size: 15px;
     width: 100%;
   }
+  
 }
 @media all and (max-width: 575px) {
   .img-section {
