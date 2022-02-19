@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Nunito', sans-serif;
   margin: 0;
@@ -181,6 +184,31 @@ section img, .cover-image {
   font-size: 24px;
 }
 
+/* payment */
+.payment .img-section {
+  position: relative;
+  border-radius: 10px;
+}
+.payment .img-section img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+}
+.payment .code {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Playfair Display', Times, serif;
+}
+.payment .description-section {
+  padding-left: 0;
+}
+
+
+@media all and (max-width: 1399px) {
+  .payment .description-section {
+    padding-left: 45px;
+  }
+}
 @media all and (max-width: 991px) {
   .reservation .img-section img {
     width: 100%;
@@ -207,6 +235,26 @@ section img, .cover-image {
   .reservation .description-section {
     width: 100%;
   }
+  /* payment */
+  .payment .description-section {
+    width: auto;
+    margin-top: 0;
+  }
+  .payment .img-section {
+    text-align: unset;
+  }
+  .payment .copy-contain {
+    width: auto !important;
+  }
+  .payment .description h2 {
+    font-size: 32px;
+  }
+  .payment .description p,
+  .payment .code,
+  .payment .copy-contain .btn,
+  .pay-now .btn {
+    font-size: 19px;
+  }
 }
 @media all and (max-width: 767px) {
   .carousel {
@@ -228,7 +276,30 @@ section img, .cover-image {
     font-size: 15px;
     width: 100%;
   }
-  
+  /* payment */
+  .payment .img-section,
+  .payment .img-section img {
+    position: unset;
+  }
+  .payment .img-section img {
+    width: 100%;
+    height: auto;
+  }
+  .payment .description h2 {
+    font-size: 20px;
+  }
+  .payment .description p,
+  .payment .code,
+  .payment .copy-contain .btn,
+  .pay-now .btn {
+    font-size: 10px;
+  }
+  .payment .description p,
+  .payment .status,
+  .payment .code-container,
+  .payment .copy-contain {
+    margin: 0 !important;
+  }
 }
 @media all and (max-width: 575px) {
   .img-section {
@@ -239,5 +310,11 @@ section img, .cover-image {
   }
   .description-section {
     margin: 10px;
+  }
+}
+@media all and (max-width: 450px) {
+  .payment .description-section {
+    margin: 0;
+    padding-left: 10px;
   }
 }
