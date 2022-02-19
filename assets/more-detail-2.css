@@ -202,11 +202,61 @@ section img, .cover-image {
 .payment .description-section {
   padding-left: 0;
 }
-
+.payment .rent-data {
+  margin-top: 20px;
+}
+.payment .first-col {
+  width: 30.5%;
+  margin: 10px 0;
+  margin-right: 31px;
+}
+.payment .second-col {
+  margin: 10px 0;
+  width: 68%;
+}
+.payment .reservation-date {
+  margin-right: 30%;
+}
+.payment .border {
+  border-radius: 8px;
+  padding: 30px 40px;
+}
+/* .qty-border {
+  padding: 20px 30px;
+} */
+.payment .rent-data .fw-bold {
+  font-size: 25px;
+}
+.payment .second-row {
+  height: 200px;
+}
+.payment .code-section {
+  margin-right: 30px;
+}
+.payment .payment-code {
+  padding: 0 16px
+}
+.payment .payment-code,
+.payment .form-select {
+  height: 75px;
+  border-radius: 8px;
+}
+.payment .form-select {
+  border: 1px solid black;
+}
+.btn-copy {
+  padding: 5px;
+  width: 21%;
+}
 
 @media all and (max-width: 1399px) {
   .payment .description-section {
     padding-left: 45px;
+  }
+}
+@media all and (max-width: 1199px) {
+  .payment .first-col {
+    width: 51.5%;
   }
 }
 @media all and (max-width: 991px) {
@@ -255,8 +305,22 @@ section img, .cover-image {
   .pay-now .btn {
     font-size: 19px;
   }
+
+  .payment .order-details,
+  .payment .identity {
+    display: flex;
+    align-items: center;
+  }
+  .payment h2 {
+    font-size: 14px;
+  }
+  .btn-copy {
+    padding: 3px;
+    font-size: 11px;
+    width: 28%;
+  }
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
   .carousel {
     margin-bottom: 45px;
   }
@@ -300,7 +364,43 @@ section img, .cover-image {
   .payment .copy-contain {
     margin: 0 !important;
   }
-}
+  .payment .border {
+    padding: 22px 10px;
+  }
+  .payment .rent-data .fw-bold,
+  .payment span,
+  .payment td {
+    font-size: 14px;
+  }
+  .payment .reservation-date {
+    margin-right: 3%;
+  }
+  .payment .second-row {
+    height: 120px;
+  }
+  .payment .second-row.border {
+    padding: 0px 10px;
+  }
+  .payment .order-details,
+  .payment .identity {
+    display: flex;
+    align-items: center;
+  }
+  .payment h2 {
+    font-size: 14px;
+  }
+  .btn-copy {
+    padding: 3px;
+    font-size: 11px;
+    width: 28%;
+  }
+  .payment .payment-code, .payment .form-select {
+    height: 47px;
+  }
+  .payment .form-select {
+    font-size: 10px;
+  }
+} 
 @media all and (max-width: 575px) {
   .img-section {
     height: 100%;
@@ -310,6 +410,10 @@ section img, .cover-image {
   }
   .description-section {
     margin: 10px;
+  }
+  .payment .code-section {
+    margin: 0;
+    margin-bottom: 10px;
   }
 }
 @media all and (max-width: 450px) {
