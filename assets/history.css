@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', Courier, monospace;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #49BEB7;
+}
+.text-muted {
+  color: #B8BECD !important;
+}
+nav {
+  height: 150px;
+}
+nav .navigation {
+  font-size: 1rem;
+  padding: 0 65px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav .navbar-collapse {
+  padding-right: 0;
+}
+nav .mail-profile img {
+  width: 54.62px;
+}
+.message {
+  text-decoration: none;
+}
+.total-message {
+  position: relative;
+  top: -18px;
+  margin-right: -18px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.profile img {
+  border-radius: 30px;
+}
+nav form {
+  height: auto;
+}
+nav form {
+  margin: 0;
+}
+nav form input::placeholder {
+  font-size: 15px;
+}
+nav input.form-control {
+  padding-left: 8px;
+}
+nav input.form-control:focus,
+nav input.form-control:hover {
+  padding-right: 45px;
+}
+nav form button {
+  height: 0;
+}
+nav form .search-icon {
+  font-size: 15px;
+  padding-right: 0;
+  color: #B8BECD;
+}
+nav form .search-icon:hover {
+  color: black;
+}
+
+/* main */
+.main-section {
+  margin: 180px 0;
+}
+
+/* form */
+form, .form-select, button {
+  height: 62px;
+}
+.form-section {
+  padding-right: 22px;
+}
+form input::placeholder {
+  font-size: 19px;
+  color: #B8BECD !important;
+}
+.form-control, .form-select {
+  padding-left: 20px;
+  background-color: #f1f1f1;
+}
+.form-control:focus,
+.form-select:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(13, 253, 221, 0.25) !important;
+}
+.form-control:focus,
+.form-control:hover {
+  padding-right: 100px;
+}
+.form-control::placeholder {
+  color: #B8BECD;
+}
+.search-icon {
+  font-size: 25px;
+  padding-right: 40px;
+}
+.select-bar:focus,
+.select-bar:active {
+  color: black;
+}
+
+/* weekly history */
+.history-data {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 40px;
+  animation: myanim 3s infinite;
+  transition: all 0.3s ease;
+}
+.history-contain:hover {
+  justify-content: space-between;
+}
+.history-contain:hover .history-data {
+  margin-left: -107px;
+}
+.history-contain:hover .btn-delete {
+  display: block !important;
+}
+
+.description {
+  margin: 40px 0;
+}
+.today-history a {
+  padding: 30px 0;
+}
+.weekly-history {
+  margin-top: 40px;
+}
+.vehicle-image1,
+.vehicle-image2 {
+  border-radius: 8px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vehicle-image1 {
+  background-image: url(/assets/images/vehicle-history-1.png);
+}
+.vehicle-image2 {
+  background-image: url(/assets/images/lambo.png);
+}
+.btn-green {
+  height: 44px;
+  padding: 0 41px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #32DBC6;
+}
+.btn-green:hover {
+  background-color: #EBEFD0;
+  color: #085F63;
+}
+
+/* asside */
+.border {
+  border: 1px solid rgb(179, 175, 175) !important;
+}
+aside h5 {
+  font-family: 'Playfair Display', Times, serif;
+}
+.parrent-img {
+  padding: 10px;
+}
+.img-section {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 337px;
+}
+section img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 284px;
+  height: 337px;
+  
+}
+section a {
+  text-decoration: none;
+}
+section .highlight {
+  margin-top: -67px;
+  position: relative;
+  background-color: #ffff;
+  width: 120px;
+  height: 56px;
+  border-radius: 0px 6px 0px 0px;
+  font-family: 'Nunito', sans-serif;
+  color: #042521;
+}
+section .highlight h5 {
+  color: #042521;
+  font-weight: 600;
+  font-size: 17px;
+}
+section .highlight span {
+  font-size: 17px;
+  color: #686767;
+}

@@ -65,6 +65,10 @@ input:focus {
   background-color: #151b1b;
   color: #32DBC6;
 }
+.row {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
 
 @media (max-width: 991px) {
   form .header-sign {
