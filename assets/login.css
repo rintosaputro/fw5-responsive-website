@@ -140,7 +140,13 @@ header .btn-signup:hover {
     margin-top: 138px;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
+  header .opacity .reverse-top {
+    display: none !important;
+  }
+  header .opacity .reverse-bottom {
+    display: block !important;
+  }
   header .opacity {
     height: 900px;
   }

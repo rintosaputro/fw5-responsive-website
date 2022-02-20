@@ -306,7 +306,7 @@ section img, .cover-image {
   .payment .code,
   .payment .copy-contain .btn,
   .pay-now .btn {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .payment .order-details,
@@ -344,6 +344,9 @@ section img, .cover-image {
     width: 100%;
   }
   /* payment */
+  .payment .detail-vehicle {
+    padding-top: 0 !important;
+  }
   .payment .img-section,
   .payment .img-section img {
     position: unset;

@@ -149,6 +149,9 @@ section .highlight span {
   .img-section {
     height: 277px;
   }
+  section {
+    margin-top: 50px;
+  }
   section .highlight {
     margin-top: -129px;
   }

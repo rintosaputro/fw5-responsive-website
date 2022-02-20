@@ -182,6 +182,9 @@ section.testimoni .profile .next-prev .btn  {
   header .container {
     text-align: center;
   }
+  header h1 {
+    font-size: 45px;
+  }
   header .line {
     margin: 0 auto;
   }
@@ -198,6 +201,9 @@ section.testimoni .profile .next-prev .btn  {
   }
   header .opacity .btn {
     height: 40px;
+  }
+  .destination h2 {
+    font-size: 26px;
   }
   section.testimoni h2 {
     font-size: 23px;
