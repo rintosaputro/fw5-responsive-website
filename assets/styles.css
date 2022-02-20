@@ -85,13 +85,19 @@ header .opacity .btn {
 }
 
 /* section */
-section h2 {
+.head {
   margin-top: 82px;
   margin-bottom: 56px;
+}
+.destination h2 {
   color: #000000;
   font-weight: bold;
   font-size: 36px;
   font-family: 'Playfair Display', serif;
+}
+.destination a {
+  text-decoration: none;
+  color: #32DBC6;
 }
 main section img {
   border-radius: 10px;
@@ -164,16 +170,20 @@ section.testimoni .profile .next-prev .btn  {
   margin: 0 5px;
 }
 
-
+@media all and (max-width: 991px) {
+  nav {
+    height: 95px;
+  }
+  nav .navigation {
+    margin: 15px 0 !important;
+  }
+}
 @media all and (max-width: 650px) {
   header .container {
     text-align: center;
   }
   header .line {
     margin: 0 auto;
-  }
-  nav {
-    height: 100px;
   }
   nav .navigation {
     padding: 10px;

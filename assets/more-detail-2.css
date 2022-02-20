@@ -260,6 +260,9 @@ section img, .cover-image {
   }
 }
 @media all and (max-width: 991px) {
+  nav {
+    height: 95px;
+  }
   .reservation .img-section img {
     width: 100%;
     height: auto;

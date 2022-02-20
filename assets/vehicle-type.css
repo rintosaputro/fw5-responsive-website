@@ -136,7 +136,7 @@ section .highlight span {
 }
 @media all and (max-width: 991px) {
   nav {
-    height: 80px;
+    height: 95px;
   }
   nav .navigation#navbarNav {
     align-items: flex-end;
