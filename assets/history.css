@@ -170,46 +170,41 @@ form input::placeholder {
 
 /* asside */
 .border {
+  padding: 20px 0;
+  border-radius: 8px;
   border: 1px solid rgb(179, 175, 175) !important;
 }
 aside h5 {
+  margin-top: 20px;
+  margin-bottom: 30px;
   font-family: 'Playfair Display', Times, serif;
 }
-.parrent-img {
-  padding: 10px;
-}
-.img-section {
-  padding: 0;
-  overflow: hidden;
-  border-radius: 10px;
-  height: 337px;
-}
-section img {
-  border-radius: 10px;
-  margin-bottom: 15px;
-  width: 284px;
-  height: 337px;
-  
-}
-section a {
-  text-decoration: none;
-}
-section .highlight {
-  margin-top: -67px;
+.new-arival {
   position: relative;
-  background-color: #ffff;
-  width: 120px;
-  height: 56px;
-  border-radius: 0px 6px 0px 0px;
-  font-family: 'Nunito', sans-serif;
-  color: #042521;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
 }
-section .highlight h5 {
-  color: #042521;
-  font-weight: 600;
-  font-size: 17px;
+.bg-vehicle-1,
+.bg-vehicle-2 {
+  height: 350px;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-section .highlight span {
-  font-size: 17px;
-  color: #686767;
+.bg-vehicle-1 {
+  background-image: url(/assets/images/lambo.png);
+}
+.bg-vehicle-2 {
+  background-image: url(/assets/images/white-jeep.png);
+}
+.highlight {
+  font-family: Nunito, Times, serif;
+  font-size: 15px !important;
+  position: absolute;
+  bottom: -4px;
+  background-color: #FFF;
+  padding: 10px 10px 10px 0;
+  border-top-right-radius: 8px;
 }
