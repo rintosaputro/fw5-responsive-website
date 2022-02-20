@@ -51,9 +51,9 @@
   </nav>
 
   <main class="row main-section">
-    <section class="col-12 col-lg -7 col-xl-8 ps-5">
-      <div class="row form-section">
-        <div class="col search-bar">
+    <section class="col-12 col-md -8 ps-5">
+      <div class="row container form-section">
+        <div class="col-12 col-sm-9 search-bar">
           <form class="container d-flex position-relative">
             <input class="form-control" type="search" placeholder="Search history">
             <button type="submit" class="btn position-absolute end-0">
@@ -61,7 +61,7 @@
             </button>
           </form>       
         </div>
-        <div class="col-3">
+        <div class="container col-4 col-sm-3 filter">
           <select class="form-select select-bar">
             <option class="d-none disabled">Filter</option>
             <option value="type">Type</option>
@@ -128,25 +128,34 @@
       </div>
     </section>
   
-    <aside class="col-12 col-lg-5 col-xl-4 pe-5">
+    <aside class="col-12 col-md-4">
       <div class="border  text-center">
         <h5 class="fw-bold">New Arrival</h5>
-        <div class="new-arival">
-          <a href="#">
-            <div class="bg-vehicle-1"></div>
-            <div class="highlight">
-              <h6 class="fw-bold">Lamborghini</h6>
-              <span class="text-muted">South Jakarta</span>
-            </div>
-          </a>
+        <div class="main-aside">
+          <div class="new-arival">
+            <a href="#">
+              <div class="bg-vehicle-1"></div>
+              <div class="highlight">
+                <h6 class="fw-bold">Lamborghini</h6>
+                <span class="text-muted">South Jakarta</span>
+              </div>
+            </a>
+          </div>
+          <div class="new-arival">
+            <a href="#">
+              <div class="bg-vehicle-2"></div>
+              <div class="highlight">
+                <h6 class="fw-bold">White Jeep</h6>
+                <span class="text-muted">Kalimantan</span>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="new-arival">
+        <div class="view-more">
           <a href="#">
-            <div class="bg-vehicle-2"></div>
-            <div class="highlight">
-              <h6 class="fw-bold">White Jeep</h6>
-              <span class="text-muted">Kalimantan</span>
-            </div>
+            <div class="text-muted">View more</div>
+            <div class="arrow-down"><i class="fa-solid fa-angle-down"></i></div>
+            <div class="arrow-next d-none"><i class="fa-solid fa-angle-right"></i></div>
           </a>
         </div>
       </div>

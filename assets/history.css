@@ -82,7 +82,8 @@ form, .form-select, button {
   height: 62px;
 }
 .form-section {
-  padding-right: 22px;
+  padding: 0;
+  margin: auto;
 }
 form input::placeholder {
   font-size: 19px;
@@ -169,6 +170,9 @@ form input::placeholder {
 }
 
 /* asside */
+aside {
+  padding-right: 3rem;
+}
 .border {
   padding: 20px 0;
   border-radius: 8px;
@@ -200,6 +204,7 @@ aside h5 {
   background-image: url(/assets/images/white-jeep.png);
 }
 .highlight {
+  left: -1px;
   font-family: Nunito, Times, serif;
   font-size: 15px !important;
   position: absolute;
@@ -207,4 +212,134 @@ aside h5 {
   background-color: #FFF;
   padding: 10px 10px 10px 0;
   border-top-right-radius: 8px;
+}
+.view-more {
+  margin-top: 30px;
+}
+.arrow-down {
+  font-size: 35px;
+}
+
+@media all and (max-width: 1040px) {
+  body {
+    font-size: 15px;
+  }
+  nav {
+    height: 95px;
+  }
+  nav .navigation {
+    margin: 15px 0 !important;
+  }
+  .bg-vehicle-1, .bg-vehicle-2 {
+    height: 300px;
+  }
+}
+@media all and (max-width: 991px) {
+  #navbarNav {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .main-section {
+    margin: 106px 0;
+  }
+  form, .form-select, button {
+    height: 40px;
+  }
+  .form-control:focus, .form-control:hover {
+    padding-right: 46px;
+  }
+  .search-icon {
+    font-size: 17px;
+    padding-right: 27px;
+  }
+  .history-data h5 {
+    font-size: 17px;
+  }
+  aside h5 {
+    font-size: 17px;
+  }
+  .bg-vehicle-1, .bg-vehicle-2 {
+    height: 265px;
+  }
+  .highlight h6,
+  .highlight span {
+    font-size: 14px;
+  }
+  .view-more {
+    margin-top: 23px;
+  }
+  .arrow-down {
+    font-size: 25px;
+  }
+  .btn-green {
+    height: 35px;
+    padding: 0 27px
+  }
+}
+@media all and (max-width: 767px) {
+  .main-aside {
+    display: flex;
+  }
+  .main-section section {
+    padding-left: 0 !important;
+  }
+  .bg-vehicle-1, .bg-vehicle-2 {
+    margin: 20px;
+    /* width: 225px; */
+    height: 166px;
+  }
+  .highlight {
+    left: 19px;
+    bottom: 8px;
+  }
+  aside {
+    padding: 0 64px !important;
+    margin: 30px 0 !important;
+  }
+  aside h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .new-arival,
+  .view-more {
+    margin: 0;
+  }
+}
+@media all and (max-width: 576px) {
+  nav .navigation {
+    padding-right: 35px;
+  }
+  body {
+    font-size: 15px;
+  }
+  .history-data h5 {
+    font-size: 13px;
+  }
+  form, .form-select, button {
+    height: 30px;
+  }
+  .form-control:focus, .form-control:hover {
+    padding-right: 46px;
+  }
+  form button {
+    display: flex;
+    align-items: center;
+  }
+  .search-icon {
+    font-size: 13px;
+    padding-right: 27px;
+  }
+  .form-control::placeholder,
+  .form-select {
+    font-size: 12px;
+  }
+  .filter {
+    margin-top: 15px;
+  }
+  aside {
+    text-align: center;
+    margin: auto;
+    padding-right: 0 !important;
+    padding: 0 10px !important;
+  }
 }
