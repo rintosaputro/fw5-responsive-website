@@ -20,34 +20,34 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container-fluid bg-white navigation">
-      <a href="index.html" class="navbar-brand">
-        <img src="./assets/images/logo.png" alt="Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse navigation" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/vehicle-type.html">Vehicle Type</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="history.html">History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li>
-            <a href="./login.html" class="btn btn-outline-warning btn-nav btn-login">Login</a>
-          </li>
-          <li>
-            <a href="signup.html" class="btn btn-warning btn-nav btn-register">Register</a>
-          </li>
-        </ul>
+    <div class="container-fluid bg-white nav-fluid">
+      <div class="container navigation">
+        <a href="index.html" class="navbar-brand">
+          <img src="./assets/images/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse main-nav" id="navbarNav">
+          <ul class="navbar-nav me-xl-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item mx-xl-3">
+              <a class="nav-link" href="vehicle-type.html">Vehicle Type</a>
+            </li>
+            <li class="nav-item me-xl-3">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="button-section ms-lg-5">
+            <a href="./login.html" class="me-lg-4 btn btn-outline">Login</a>
+            <a href="signup.html" class="btn btn-green">Register</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -81,10 +81,12 @@
               </select>
             </div>
             <div class="col-sm-6">
-              <input type="date" class="option-form">
+              <label for="date" class="date-section">
+                <input type="date" class="option-form" id="date">
+              </label>
             </div>
           </div>
-          <button class="btn btn-warning">Explore</button>
+          <button class="btn btn-green" aria-label="explore">Explore</button>
         </form>
       </div>
     </div>
@@ -159,8 +161,8 @@
           <div class="image">
             <img src="./assets/images/user-homepage.png" alt="Edward">
             <div class="ms-auto next-prev">
-              <button class="btn disabled next"><i class="fa-solid fa-angle-left"></i></button>
-              <button class="btn prev"><i class="fa-solid fa-angle-right"></i></button>
+              <button class="btn disabled next" aria-label="next"><i class="fa-solid fa-angle-left"></i></button>
+              <button class="btn prev" aria-label="previous"><i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
         </div>
