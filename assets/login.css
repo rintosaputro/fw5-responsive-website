@@ -46,10 +46,10 @@ header .btn-signup:hover {
   color: #151b1b;
 }
 .form-register {
-  margin-left: 20%;
+  margin-left: 15%;
 }
 .form-register input, .form-register .btn {
-  width: 447px;
+  width: 95%;
   padding: 23px 0;
   border-radius: 10px;
   margin: 17px 0;
@@ -122,8 +122,14 @@ header .btn-signup:hover {
     margin-bottom: 15px;
     font-size: 43px;
   }
+  .left-section {
+    width: 80%;
+  }
+  .reverse-top {
+    width: 100%;
+  }
   .form-register input, .form-register .btn {
-    width: 320px;
+    width: 100%;
     padding: 12px 0;
   }
   .form-register input {
@@ -133,14 +139,26 @@ header .btn-signup:hover {
     font-size: 15px;
   }
   header .opacity .btn {
-    width: 320px;
+    width: 100%;
     padding: 15px 0;
+  }
+  header .btn-signup {
+    box-shadow: 0px 4px 3px 0px rgba(50,219,198,0.75);
+    -webkit-box-shadow: 0px 4px 3px 0px rgba(50,219,198,0.75);
+    -moz-box-shadow: 0px 4px 3px 0px rgba(50,219,198,0.75);
   }
   .dot.bottom {
     margin-top: 138px;
   }
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
+  .left-section {
+    margin: auto;
+  }
+  header h1 {
+    font-size: 35px;
+    margin: auto;
+  }
   header .opacity .reverse-top {
     display: none !important;
   }
@@ -161,8 +179,10 @@ header .btn-signup:hover {
     display: none;
   }
   header .form-register {
+    margin: auto;
     margin-top: 10px;
     margin-left: 0;
+    font-size: 25px;
   }
   .form-register {
     display: flex;
