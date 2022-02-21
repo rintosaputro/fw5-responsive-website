@@ -69,6 +69,7 @@ form input::placeholder {
 }
 form .form-control {
   padding-left: 75px;
+  padding-right: 80px;
 }
 form .form-control:focus {
   padding-right: 100px;
