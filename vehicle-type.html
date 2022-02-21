@@ -21,11 +21,11 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container bg-white navigation">
+    <div class="container-fluid bg-white navigation">
       <a href="index.html" class="navbar-brand">
         <img src="./assets/images/logo.png" alt="Logo">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="navbar button">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse navigation" id="navbarNav">
@@ -34,10 +34,10 @@
             <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item mx-xl-3">
-            <a class="nav-link active" href="vehicle-type.html">Vehicle Type</a>
+            <a class="nav-link" href="vehicle-type.html">Vehicle Type</a>
           </li>
           <li class="nav-item me-xl-3">
-            <a class="nav-link" href="history.html">History</a>
+            <a class="nav-link active" href="#">History</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -53,7 +53,7 @@
 
   <form class="container d-flex position-relative">
     <input class="form-control" type="search" placeholder="Search vehicle (ex. cars, cars name)">
-    <button type="submit" class="btn position-absolute end-0">
+    <button type="submit" class="btn position-absolute end-0" aria-label="search button">
       <i class="fa-solid fa-magnifying-glass search-icon"></i>
     </button>
   </form>
