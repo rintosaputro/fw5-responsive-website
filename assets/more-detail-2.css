@@ -10,8 +10,13 @@ nav {
   height: 150px;
 }
 nav .navigation {
+  font-size: 1rem;
+  padding: 0 65px;
   display: flex;
   justify-content: flex-end;
+}
+nav .navbar-collapse {
+  padding-right: 0;
 }
 nav .mail-profile img {
   width: 54.62px;
@@ -20,12 +25,17 @@ nav .mail-profile img {
   text-decoration: none;
 }
 .total-message {
+  background-color: #49BEB7;
   position: relative;
   top: -18px;
   margin-right: -18px;
   border-radius: 50px;
   font-size: 15px;
   font-weight: bold;
+}
+.icon-message {
+  font-size: 55px;
+  color: #0d9299;
 }
 .profile img {
   border-radius: 30px;
@@ -263,14 +273,29 @@ section img, .cover-image {
   nav {
     height: 95px;
   }
-  .reservation .img-section img {
-    width: 100%;
-    height: auto;
-  }
-  #navbarNav {
+  nav .navigation#navbarNav {
     align-items: flex-end;
     flex-direction: column;
     margin: 20px 0;
+    padding: 0;
+  }
+  .navbar-nav,
+  .mail-profile {
+    width: 100%;
+  }
+  .mail-profile {
+    flex-direction: column;
+    align-items: start !important;
+  }
+  .mail-profile a {
+    width: 100%;
+  }
+  nav form {
+    margin: 20px 0;
+  }
+  .reservation .img-section img {
+    width: 100%;
+    height: auto;
   }
   .img-section {
     text-align: center;
@@ -406,6 +431,9 @@ section img, .cover-image {
   .payment .form-select {
     font-size: 10px;
   }
+  .btn-reservation {
+    margin: 20px 0;
+  }
 } 
 @media all and (max-width: 575px) {
   .img-section {
@@ -417,14 +445,30 @@ section img, .cover-image {
   .description-section {
     margin: 10px;
   }
+  .description h2 {
+    font-size: 40px;
+  }
+  .price {
+    font-size: 27px;
+  }
   .payment .code-section {
     margin: 0;
     margin-bottom: 10px;
   }
 }
 @media all and (max-width: 450px) {
+  .container {
+    padding: 0 25px !important;
+  }
   .payment .description-section {
     margin: 0;
     padding-left: 10px;
+  }
+  .data-item {
+    flex-direction: column !important;
+  }
+  .payment .first-col,
+  .payment .second-col {
+    width: 100%;
   }
 }
